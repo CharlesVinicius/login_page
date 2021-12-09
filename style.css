@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("Login Backgound.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container form{
+    background: rgba(201, 201, 201, 0.1);
+    height: 490px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.1);
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-left: 1px solid rgba(255,255,255,.3);
+}
+
+.container form h1{
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container  input[type="email"]{
+    outline: none;
+    border: none;
+    height: 37px;
+    width: 82%;
+    padding: 0 9px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    
+}
+
+.container  input[type="password"]{
+    outline: none;
+    border: none;
+    height: 37px;
+    width: 82%;
+    padding: 0 9px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    
+}
+
+.container a{
+    color: rgb(184, 208, 243);
+}
+.container button{
+    cursor: pointer;
+    width: 82%;
+    height: 37px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+.container form #GoogleButton{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.container form #FacebookButton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 106, 238);
+    font-weight: bold;
+    
+}
+
+.container form p{
+    color: white;
+    margin-top: 17px;
+    font-size: 14px;
+}
+
+.container i{
+    font-size: 20px;
+    left: 77px;
+    position: absolute;
+    
+}
+
+.container img{
+    width: 20px;
+    left: 80px;
+    position: absolute;
+} 
+
